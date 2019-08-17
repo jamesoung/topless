@@ -65,12 +65,12 @@ function windowScroll() {
         if (scrollPos >= 20) {
             $(".header").addClass("fixed-nav");
             if($(".header").hasClass('black-nav')){
-                $(".header .navbar-brand img").attr("src", "assets/images/logo.png");
+                $(".header .navbar-brand img").attr("src", "assets/images/topless.png");
             }
         } else {
             $(".header").removeClass("fixed-nav");
             if($(".header").hasClass('black-nav')){
-                $(".header .navbar-brand img").attr("src", "assets/images/logo-blk.png");
+                $(".header .navbar-brand img").attr("src", "assets/images/topless.png");
             }
         }
     })
@@ -202,9 +202,9 @@ function typewriter(){
         var typewriter = new Typewriter(typed, {
             loop: true
         });
-        typewriter.typeString('HTML Template').pauseFor(2000).deleteAll()
-            .typeString('Portfolio Template').pauseFor(2000).deleteAll()
-            .typeString('Multipurpose Template').pauseFor(2000).start();
+        typewriter.typeString('Top - Up').pauseFor(2000).deleteAll()
+            .typeString('Less Money').pauseFor(2000).deleteAll()
+            .typeString('Enjoy').pauseFor(2000).start();
     }
 }
 
