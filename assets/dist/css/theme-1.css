@@ -37,16 +37,16 @@ a:hover {
   color: #3584A7; }
 
 .grediant-overlay, .bg-gred {
-  background-image: linear-gradient(-225deg, #243949 0%, #3584A7 51%, #517fa4 100%); }
+  background-image: linear-gradient(-225deg, #243949 0%, #3584A7 51%, #68e0cf 100%); }
 
 .grediant-overlay-reverse, .bg-reverse-gred {
-  background-image: linear-gradient(-225deg, #243949 0%, #3584A7 50%, #517fa4 100%); }
+  background-image: linear-gradient(-225deg, #243949 0%, #3584A7 50%, #68e0cf 100%); }
 
 .gred-bg.fixed-nav {
   background-image: linear-gradient(-225deg, #243949 0%, #517fa4 100%); }
 
 .text-grediant {
-  background-image: linear-gradient(to right, #3584A7 0%, #473B7B 100%);
+  background-image: linear-gradient(to right, #3584A7 0%, #243949 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text; }
 
@@ -54,7 +54,7 @@ a:hover {
   background-color: #3584A7; }
 
 .border-gred {
-  border-image: linear-gradient(to right, #3584A7 0%, #473B7B 100%);
+  border-image: linear-gradient(to right, #3584A7 0%, #243949 100%);
   border-image-slice: 1; }
 
 .icon-img {
@@ -64,7 +64,7 @@ a:hover {
   color: #3584A7 !important; }
 
 .bg-primary {
-  background: #3584A7 !important; }
+  background: #3584A7 !important; } /** about 1 */
 
 .close:hover {
   color: #3584A7; }
@@ -76,30 +76,30 @@ a:hover {
   color: #3584A7; }
 
 .btn-primary {
-  background-image: linear-gradient(to right, #473B7B 0%, #3584A7 51%, #473B7B 100%);
+  background-image: linear-gradient(to right, #243949 0%, #3584A7 51%, #243949 100%);
   color: #ffffff; }
   .btn-primary:hover {
     color: #ffffff; }
 
 .btn-outline-primary {
-  background-image: linear-gradient(to right, #473B7B 0%, #3584A7 100%);
+  background-image: linear-gradient(to right, #243949 0%, #3584A7 100%);
   background-clip: padding-box, border-box;
   background-origin: border-box;
   padding: 0.5rem 1.25rem; }
   .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
     background: #3584A7;
-    background-image: linear-gradient(to right, #473B7B 0%, #3584A7 51%, #473B7B 100%);
+    background-image: linear-gradient(to right, #243949 0%, #3584A7 51%, #243949 100%);
     background-clip: border-box, padding-box;
     background-origin: border-box; }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
-  background-image: linear-gradient(to right, #473B7B 0%, #3584A7 51%, #473B7B 100%);
+  background-image: linear-gradient(to right, #243949 0%, #3584A7 51%, #243949 100%);
   color: #ffffff; }
 
 .btn-outline-white:hover {
   color: #3584A7;
   shape-outside: border-box;
-  background: linear-gradient(to right, #473B7B 0%, #3584A7 100%);}
+  background: linear-gradient(to right, #243949 0%, #3584A7 100%);}
 
 
 .btn-white {
