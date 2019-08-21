@@ -37,13 +37,13 @@ a:hover {
   color: #3584A7; }
 
 .grediant-overlay, .bg-gred {
-  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%); }
+  background-image: linear-gradient(-225deg, #243949 0%, #3584A7 51%, #517fa4 100%); }
 
 .grediant-overlay-reverse, .bg-reverse-gred {
-  background-image: linear-gradient(-225deg, #30D2BE 0%, #3584A7 50%, #473B7B 100%); }
+  background-image: linear-gradient(-225deg, #243949 0%, #3584A7 50%, #517fa4 100%); }
 
 .gred-bg.fixed-nav {
-  background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%); }
+  background-image: linear-gradient(-225deg, #243949 0%, #517fa4 100%); }
 
 .text-grediant {
   background-image: linear-gradient(to right, #3584A7 0%, #473B7B 100%);
@@ -98,7 +98,9 @@ a:hover {
 
 .btn-outline-white:hover {
   color: #3584A7;
-  background: #ffffff; }
+  shape-outside: border-box;
+  background: linear-gradient(to right, #473B7B 0%, #3584A7 100%);}
+
 
 .btn-white {
   color: #3584A7; }
