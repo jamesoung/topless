@@ -2361,6 +2361,13 @@ textarea.form-control {
       .social-link a.fb:hover {
         color: #ffffff;
         background: #3b579d; }
+
+        .social-link a.ig {
+      color: #db04a5; }
+      .social-link a.ig:hover {
+        color: #ffffff;
+        background: #db04a5; }
+
     .social-link a.tw {
       color: #1da1f2; }
       .social-link a.tw:hover {
@@ -2386,6 +2393,13 @@ textarea.form-control {
     .social-link.social-white a.fb:hover {
       color: #3b579d;
       background: #ffffff; }
+
+      .social-link.social-white a.ig {
+    color: #ffffff; }
+    .social-link.social-white a.ig:hover {
+      color: #db04a5;
+      background: #ffffff; }
+
   .social-link.social-white a.tw {
     color: #ffffff; }
     .social-link.social-white a.tw:hover {
@@ -3850,7 +3864,7 @@ textarea.form-control {
   flex-direction: column;
   position: relative;
   z-index: 1;
-  border: 2px solid #ffffff;
+  border: 0px solid #ffffff;
   padding: 2rem;
   border-radius: 5px; }
   @media (max-width: 991px) {
